@@ -50,9 +50,25 @@
             return '\0';
         }
 
-        public static void CountVowel(string input)
+        public static int CountVowel(string input)
         {
+            if (string.IsNullOrEmpty(input))
+            {
+                return 0;
+            }
 
+            int count = 0;
+            string vowel = "aeiou";
+
+            foreach (char c in input)
+            {
+                if (vowel.Contains(c))
+                {
+                    count++;
+                }
+            }
+
+            return count;
         }
     }
 }
