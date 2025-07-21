@@ -21,5 +21,33 @@
                 Console.WriteLine((fizz && buzz) ? "FizzBuzz" : fizz ? "Fizz" : buzz ? "Buzz" : i.ToString());
             }
         }
+
+        public static char FirstNonRepeatingChar(string input)
+        {
+            Dictionary<char, int> counts = new Dictionary<char, int>();
+
+            //first pass. count each char
+            foreach (char c in input)
+            {
+                if (counts.ContainsKey(c))
+                {
+                    counts[c]++;
+                }
+                else
+                {
+                    counts[c] = 1;
+                }
+            }
+
+            foreach (char c in input)
+            {
+                if (counts[c] == 1)
+                {
+                    return c;
+                }
+            }
+
+            return '\0';
+        }
     }
 }
