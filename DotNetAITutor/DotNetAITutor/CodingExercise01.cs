@@ -16,9 +16,9 @@
             for (int i = 1; i < calcAmount; i++)
             {
                 fizz = i % 3 == 0;
-                fizz = i % 5 == 0;
+                buzz = i % 5 == 0;
 
-                Console.WriteLine(fizz && buzz ? "FizzBuzz" : fizz ? "Fizz" : buzz ? "buzz" : i.ToString());
+                Console.WriteLine((fizz && buzz) ? "FizzBuzz" : fizz ? "Fizz" : buzz ? "Buzz" : i.ToString());
             }
         }
     }
