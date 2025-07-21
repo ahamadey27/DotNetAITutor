@@ -1,5 +1,4 @@
-﻿using DotNetAITutor;
-/*
+﻿/*
 //EvenNumbers()
 var input = new List<int>() { 2, 6, 78, 45, 3, 76, 7, 8 };
 var evens = CodingExercise01.EvenNumbers(input);
@@ -7,5 +6,8 @@ var evens = CodingExercise01.EvenNumbers(input);
 Console.WriteLine(string.Join(", ", evens));
 */
 
+/*
 //FizzBuzz
 CodingExercise01.FizzBuzz(100);
+*/
+

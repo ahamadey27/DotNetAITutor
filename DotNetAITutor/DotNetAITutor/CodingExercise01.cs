@@ -49,5 +49,10 @@
 
             return '\0';
         }
+
+        public static void CountVowel(string input)
+        {
+
+        }
     }
 }
