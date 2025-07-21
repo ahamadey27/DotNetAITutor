@@ -13,7 +13,7 @@
             bool fizz = false;
             bool buzz = false;
 
-            for (int i = 1; i < calcAmount; i++)
+            for (int i = 1; i <= calcAmount; i++)
             {
                 fizz = i % 3 == 0;
                 buzz = i % 5 == 0;
