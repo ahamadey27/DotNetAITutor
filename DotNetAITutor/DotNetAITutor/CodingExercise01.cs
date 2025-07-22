@@ -107,7 +107,7 @@ namespace DotNetAITutor
 
             for (int i = input.Length - 1; i >= 0; i--)
             {
-                newString += i;
+                newString += input[i];
             }
 
             Console.WriteLine(newString);
