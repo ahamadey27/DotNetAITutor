@@ -22,7 +22,10 @@ Console.WriteLine(CodingExercise01.CountVowel("hello"));
 CodingExercise01.RemoveDuplicates(new int[] { 3, 3, 7, 6, 9, 9, 56, 56, 4, });
 */
 
+/*
 //Removes duplicates with hashset
-
-
 Console.WriteLine(string.Join(", ", CodingExercise01.RemoveDupsHashset(new string[] { "2", "2", "1" })));
+*/
+
+//Reverse string
+CodingExercise01.ReverseString("Chill");
