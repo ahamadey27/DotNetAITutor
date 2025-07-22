@@ -27,5 +27,10 @@ CodingExercise01.RemoveDuplicates(new int[] { 3, 3, 7, 6, 9, 9, 56, 56, 4, });
 Console.WriteLine(string.Join(", ", CodingExercise01.RemoveDupsHashset(new string[] { "2", "2", "1" })));
 */
 
+/*
 //Reverse string
 CodingExercise01.ReverseString("Chill");
+*/
+
+//Largest number in an array
+CodingExercise01.MaxNumber(new int[] { 5, 7, 23, 7, 56, 9 });

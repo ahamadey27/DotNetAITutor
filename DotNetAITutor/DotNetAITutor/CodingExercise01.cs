@@ -116,13 +116,16 @@ namespace DotNetAITutor
         //Max number in an array
         public static void MaxNumber(int[] numArray)
         {
-            int smallest = numArray[0];
+            int largest = numArray[0];
             for (int index = 0; index < numArray.Length; index++)
             {
-                if (numArray[index] < smallest) smallest = numArray[index];
+                if (numArray[index] > largest)
+                {
+                    largest = numArray[index];
+                }
             }
 
-            Console.WriteLine(smallest);
+            Console.WriteLine(largest);
         }
 
     }
