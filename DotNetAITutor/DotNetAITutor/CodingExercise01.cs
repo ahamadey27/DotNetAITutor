@@ -113,6 +113,18 @@ namespace DotNetAITutor
             Console.WriteLine(newString);
         }
 
+        //Max number in an array
+        public static void MaxNumber(int[] numArray)
+        {
+            int smallest = numArray[0];
+            for (int index = 0; index < numArray.Length; index++)
+            {
+                if (numArray[index] < smallest) smallest = numArray[index];
+            }
+
+            Console.WriteLine(smallest);
+        }
+
     }
 
 
