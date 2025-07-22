@@ -1,4 +1,6 @@
-﻿namespace DotNetAITutor
+﻿using System.Collections;
+
+namespace DotNetAITutor
 {
     public class CodingExercise01
     {
@@ -70,5 +72,28 @@
 
             return count;
         }
+
+        //Remove duplicates from an array
+        public static void RemoveDuplicates(string[] sArray)
+        {
+            var sList = new ArrayList();
+            for (int i = 0; i < sArray.Length; i++)
+            {
+                if (sList.Contains(sArray[i]) == false)
+                {
+                    sList.Add(sArray[i]);
+                }
+            }
+
+            var sNew = sList.ToArray();
+
+            for (int i = 0; i < sNew.Length; i++)
+            {
+                Console.WriteLine(sNew[i]);
+            }
+        }
+
     }
+
+
 }
