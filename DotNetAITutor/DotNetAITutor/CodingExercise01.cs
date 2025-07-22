@@ -93,6 +93,17 @@ namespace DotNetAITutor
             }
         }
 
+        //Removes duplicates in an array using hashset (unordered collection of unique elements)
+
+        public static string[] RemoveDupsHashset(string[] s)
+        {
+            HashSet<string> hSet = new HashSet<string>(s); //converts array to hashset
+
+            string[] result = new string[hSet.Count]; //adds hashset to array and removes duplicates
+            hSet.CopyTo(result);
+            return result;
+        }
+
     }
 
 
