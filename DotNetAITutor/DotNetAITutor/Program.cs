@@ -1,4 +1,5 @@
-﻿/*
+﻿using DotNetAITutor;
+/*
 //EvenNumbers()
 var input = new List<int>() { 2, 6, 78, 45, 3, 76, 7, 8 };
 var evens = CodingExercise01.EvenNumbers(input);
@@ -22,3 +23,6 @@ CodingExercise01.RemoveDuplicates(new int[] { 3, 3, 7, 6, 9, 9, 56, 56, 4, });
 */
 
 //Removes duplicates with hashset
+
+
+Console.WriteLine(string.Join(", ", CodingExercise01.RemoveDupsHashset(new string[] { "2", "2", "1" })));
