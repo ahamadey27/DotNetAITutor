@@ -100,6 +100,19 @@ namespace DotNetAITutor
             return new HashSet<string>(s).ToArray();
         }
 
+        //Reverse a string
+        public static void ReverseString(string input)
+        {
+            string newString = "";
+
+            for (int i = input.Length - 1; i >= 0; i--)
+            {
+                newString += i;
+            }
+
+            Console.WriteLine(newString);
+        }
+
     }
 
 
