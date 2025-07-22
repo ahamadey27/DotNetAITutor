@@ -74,7 +74,7 @@ namespace DotNetAITutor
         }
 
         //Remove duplicates from an array
-        public static void RemoveDuplicates(string[] sArray)
+        public static void RemoveDuplicates(int[] sArray)
         {
             var sList = new ArrayList();
             for (int i = 0; i < sArray.Length; i++)

@@ -12,5 +12,10 @@ Console.WriteLine(string.Join(", ", evens));
 CodingExercise01.FizzBuzz(100);
 */
 
+/*
 //Count Vowels of string
 Console.WriteLine(CodingExercise01.CountVowel("hello"));
+*/
+
+//Removes duplicate (brute force)
+CodingExercise01.RemoveDuplicates(new int[] { 3, 3, 7, 6, 9, 9, 56, 56, 4, });
