@@ -128,6 +128,22 @@ namespace DotNetAITutor
             Console.WriteLine(largest);
         }
 
+
+        //Sum of even numbers in an array
+        public static int SumOfEvenNumbers(int[] numArray)
+        {
+            int sum = 0;
+            foreach (int num in numArray)
+            {
+                if (num % 2 == 0)
+                {
+                    sum += num;
+                }
+            }
+            return sum;
+
+        }
+
     }
 
 
