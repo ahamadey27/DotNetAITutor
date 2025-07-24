@@ -42,5 +42,8 @@ Console.WriteLine($"Sum of even numbers are: {CodingExercise01.SumOfEvenNumbers(
 
 using DotNetAITutor;
 
-
+/*
 Console.WriteLine($"Number of words in a sentence is: {CodingExercise01.CountWords("My name is hammer")}");
+*/
+
+Console.WriteLine(CodingExercise01.IsPalindrome("abb"));
