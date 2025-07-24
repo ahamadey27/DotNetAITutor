@@ -40,3 +40,7 @@ CodingExercise01.MaxNumber(new int[] { 5, 7, 23, 7, 56, 9 });
 Console.WriteLine($"Sum of even numbers are: {CodingExercise01.SumOfEvenNumbers(new int[] { 5, 8, 45, 2, 68, 9, 5, 44 })}");
 */
 
+using DotNetAITutor;
+
+
+Console.WriteLine($"Number of words in a sentence is: {CodingExercise01.CountWords("My name is hammer")}");
