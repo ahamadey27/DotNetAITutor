@@ -145,6 +145,19 @@ namespace DotNetAITutor
 
 
         //Count number of words in a sentence 
+        public static int CountWords(string sentence)
+        {
+            //Checks for null, empty or whitespace-only string
+            if (string.IsNullOrWhiteSpace(sentence))
+            {
+                return 0;
+            }
+
+            //Slits sentence into words, using spaces and separators 
+            //RemoveEmptyEntires ensures we ignore multiple spaces
+            string[] words = sentence.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            return words.Length;
+        }
 
 
     }
