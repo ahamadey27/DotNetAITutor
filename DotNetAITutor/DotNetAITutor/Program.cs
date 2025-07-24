@@ -1,5 +1,4 @@
-﻿using DotNetAITutor;
-/*
+﻿/*
 //EvenNumbers()
 var input = new List<int>() { 2, 6, 78, 45, 3, 76, 7, 8 };
 var evens = CodingExercise01.EvenNumbers(input);
@@ -32,5 +31,12 @@ Console.WriteLine(string.Join(", ", CodingExercise01.RemoveDupsHashset(new strin
 CodingExercise01.ReverseString("Chill");
 */
 
+/*
 //Largest number in an array
 CodingExercise01.MaxNumber(new int[] { 5, 7, 23, 7, 56, 9 });
+*/
+
+/*
+Console.WriteLine($"Sum of even numbers are: {CodingExercise01.SumOfEvenNumbers(new int[] { 5, 8, 45, 2, 68, 9, 5, 44 })}");
+*/
+
