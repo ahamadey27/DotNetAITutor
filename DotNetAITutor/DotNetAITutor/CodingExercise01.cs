@@ -173,6 +173,19 @@ namespace DotNetAITutor
 
         }
 
+        public static decimal AverageOfArray(int[] numArray)
+        {
+            decimal arraySum = 0;
+
+            foreach (var item in numArray)
+            {
+                arraySum += item;
+            }
+
+            decimal arrayAverage = (decimal)arraySum / numArray.Length;
+            return arrayAverage;
+        }
+
 
     }
 
