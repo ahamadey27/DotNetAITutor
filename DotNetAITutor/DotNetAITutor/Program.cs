@@ -46,4 +46,8 @@ using DotNetAITutor;
 Console.WriteLine($"Number of words in a sentence is: {CodingExercise01.CountWords("My name is hammer")}");
 */
 
+/*
 Console.WriteLine(CodingExercise01.IsPalindrome("abb"));
+*/
+
+Console.WriteLine($"Average of integers in array is: {CodingExercise01.AverageOfArray(new int[] { 5, 45, 89, 234, 66, 8 })}");
